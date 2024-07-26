@@ -14,7 +14,9 @@ class PublicationDetailView(TemplateView):
     template_name = 'publication-detail.html'
 
     def get_context_data(self, **kwargs):
-        context = {}
+        context = {
+
+        }
         return context
 
 
